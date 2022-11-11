@@ -6,7 +6,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { TesteComponent } from './pages/teste/teste.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HetosoftService } from './services/hetosoft-service.service';
+import { HetosoftService } from './services/hetosoft.service';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
