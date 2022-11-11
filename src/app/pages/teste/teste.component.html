@@ -1,9 +1,11 @@
 <div class="vertical-alignment" > 
     <div *ngIf="itens.length>1"> 
-        <select class="select"> 
-            <option disabled >Select one item</option>
+        <select  id="select" class="select" (change)="activatesSnackbar()">            
             <option *ngFor="let item of itens" [value]="item.iD_SISTEMA">{{item.descricao}}</option>
         </select>
     </div>
     <img  *ngIf="itens.length<1" src="../../../assets/img/loading-loading-forever.gif">
 </div>
+
+
+<spa-snackbar [snackbarText]="snackbarText"></spa-snackbar>

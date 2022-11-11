@@ -8,13 +8,15 @@ import { TesteComponent } from './pages/teste/teste.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HetosoftService } from './services/hetosoft.service';
 import { HttpClientModule } from '@angular/common/http';
+import { SnackbarComponent } from './components/shared/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    TesteComponent
+    TesteComponent,
+    SnackbarComponent
   ],
   imports: [
     BrowserModule,
