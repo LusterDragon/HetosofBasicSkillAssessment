@@ -1,0 +1,13 @@
+.vertical-alignment{
+    display:flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+.select{
+    appearance: none;
+    width:300px;
+    padding:0.5%;
+}
